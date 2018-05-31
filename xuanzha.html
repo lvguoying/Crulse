@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: #ddd;
+        margin: 0;
+        padding: 0;
+        /* width: 100%; */
+    }
+
+    .building {
+        background-color: #FF9A2A;
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+
+    .ldle {
+        background-color: #7fbc39;
+    }
+
+    .total {
+        background-color: #ddd;
+    }
+
+     .header {
+        background-color: #f60;
+        width: 98%;
+        height: 50px;
+        margin-top: 5px;
+    }
+
+    .container ul li {
+        list-style: none;
+        width: 500px;
+        height: 80px;
+        margin-top: 5px;
+        background-color: #ccc;
+    }
+
+     .building .post {
+        position: relative;
+        left: 60px;
+    }
+
+     .building .post span {
+        width: 88px;
+        height: 23px;
+        display: inline-block;
+        background: #ffb42a;
+        position: absolute;
+        top: 38px;
+        left: -13px;
+        border-radius: 10px;
+    }
+
+    .s1 {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+    }
+
+    .s2 {
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+    }
+
+    .s3 {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+    }
+
+    .s4 {
+        -webkit-transform: rotate(135deg);
+        -moz-transform: rotate(135deg);
+    }
+
+    .s5 {
+        height: 30px;
+        width: 30px;
+        background-color: #FF9A2A;
+        border-radius: 100%;
+        position: absolute;
+        top: 117px;
+        left: 365px;
+    }
+
+    .y0 {
+        -webkit-animation-name: slide1;
+        -webkit-animation-duration: 2s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-name: slide1;
+        -moz-animation-duration: 10s;
+        -moz-animation-iteration-count: infinite;
+        -moz-animation-timing-function: linear;
+    }
+
+    @-webkit-keyframes slide1 {
+        0% {
+            -webkit-transform: rotate(0deg);
+        }
+        50% {
+            -webkit-transform: rotate(180deg);
+        }
+        100% {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+
+    @-moz-keyframes slide1 {
+        0% {
+            -moz-transform: rotate(0deg);
+        }
+        50% {
+            -moz-transform: rotate(180deg);
+        }
+        100% {
+            -moz-transform: rotate(360deg);
+        }
+    }
+
+    @-webkit-keyframes slide2 {
+        0% {
+            -webkit-transform: rotate(0deg);
+        }
+        50% {
+            -webkit-transform: rotate(-180deg);
+        }
+        100% {
+            -webkit-transform: rotate(-360deg);
+        }
+    }
+
+    @-moz-keyframes slide2 {
+        0% {
+            -moz-transform: rotate(0deg);
+        }
+        50% {
+            -moz-transform: rotate(-180deg);
+        }
+        100% {
+            -moz-transform: rotate(-360deg);
+        }
+    }
+</style>
+
+<body>
+        <div class="building">
+                <div class="post y0">
+                    <span class="s1"></span>
+                    <span class="s2"></span>
+                    <span class="s3"></span>
+                    <span class="s4"></span>
+                </div>
+                
+            </div>
+            <div class="s5"></div>
+
+</body>
+
+</html>
