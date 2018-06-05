@@ -25,19 +25,11 @@ body {
 .head img {
   height: 40px;
 }
-
-.head .msg {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #f60;
-}
-
 .content {
   display: flex;
   width: 80%;
   margin: 0 auto;
-  height: 1000px;
+  /* height: 1000px; */
 }
 
 
@@ -47,10 +39,16 @@ body {
   border: 1px dashed #f60;
 }
 
+.container{
+  width: 95%;
+  margin: 0 auto;
+}
 .content-right {
   border: 1px dashed rgb(87, 51, 27);
   width: 80%;
   overflow: hidden;
+  /* display: flex; */
+  
 }
 
 .menu li span {
@@ -65,65 +63,44 @@ body {
   color: #fff;
   cursor: pointer;
 }
-
-.bottom {
-  position: absolute;
-  bottom: 0;
+.contain{
+  display: flex;
 }
-
-.history {
-  font-size: 24px;
-  color: #cccccc;
-  list-style: none;
+.building:first-child div{
+  color: #fff;
+  font: 18px;
+  width: bold;
 }
-
-.list {
-  font-size: 12px;
-  color: #999;
-  /* margin-top: 5px; */
-  /* padding-top: 5px; */
-}
-
-.list li {
-  /* margin-left: 20px; */
-  margin-top: 5px;
-}
-
-.content-right div {
-  width: 30%;
+.contain .building{
+  background-color: #ff9a2a;
   height: 100px;
-  /* background-color: #f60; */
-  float: left;
-  margin-left: 8px;
+  width: 250px;
+  margin-top: 10px;
 }
-
-/* .building {
-  background-color: #FF9A2A;
-}
-
-.ldle {
+.contain .ldle{
   background-color: #7fbc39;
+  height: 100px;
+  width: 250px;
+  margin: 10px 0 0 30px;
 }
-
-.total {
+.contain .total{
   background-color: #ddd;
+  height: 100px;
+  margin: 10px 0 0 30px;
+  width: 250px;
 }
 
-.content-right .header {
-  background-color: #f60;
-  width: 98%;
+.content-right .header{
+  background-color: #ddd;
+  margin-top: 10px;
   height: 50px;
-  margin-top: 5px;
 }
-
-.container ul li {
+.message ul li{
   list-style: none;
-  width: 500px;
-  height: 80px;
-  margin-top: 5px;
-  background-color: #ccc;
-} */
-
+  height: 150px;
+  background-color: #f60;
+  margin-top: 10px;
+}
 /*--------------------*/
 
 @font-face {
